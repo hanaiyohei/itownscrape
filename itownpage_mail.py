@@ -8,7 +8,7 @@ import re
 import csv
 
 
-myfile = open("/Users/unionsquare/Documents/image/python3/input/itown.txt")
+myfile = open("itown.txt")
 urls = myfile.readlines()
 myfile.close()
 urls_list = []

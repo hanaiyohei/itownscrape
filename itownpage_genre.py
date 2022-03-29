@@ -8,7 +8,7 @@ import codecs
 from urllib.parse import urljoin
 from time import sleep
 
-html = BeautifulSoup(open('/Users/unionsquare/Documents/image/python3/input/スポーツ施設.html'), 'html.parser')
+html = BeautifulSoup(open('スポーツ施設.html'), 'html.parser')
 
 #print(html)
 detail_url_list = html.find_all("a", class_="m-article-card__header__title__link")
